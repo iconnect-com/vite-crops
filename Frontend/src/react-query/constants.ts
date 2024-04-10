@@ -1,0 +1,15 @@
+export const queryKeys = {
+  user: "user",
+  me: "me",
+  photo: "photo",
+  users: "users",
+  usersRole: "usersRole",
+  crop: "crop",
+  alert: "alert",
+  commodity: "commodity",
+  marketnews: "marketnews",
+  configuration: "configuration",
+  notification: "notification",
+  weather: "weather",
+  comments: "comments",
+};

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  font-family: "Poppins", "sans-serif";
+}
+body {
+  margin: 0;
+  font-family: "Poppins", "sans-serif";
+}
+
+.my-step .ant-steps-item-icon {
+  margin-bottom: -5px;
+}
+
+.ant-btn-primary {
+  background: #39462d !important;
+  color: white;
+}
+
+.ant-menu .ant-menu-item-group-title {
+  padding: 8px 8px;
+  font-size: 14px;
+  line-height: 3.5714285714285714;
+  transition: all 0.3s;
+}
+
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-item-selected::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu-item-selected::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-submenu-selected::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu-item-active {
+  border-bottom-width: 0px;
+}
+
+.ant-menu-overflow-item
+  .ant-menu-item-active
+  .ant-menu-item
+  .ant-menu-item-selected {
+  border-bottom-width: 0px;
+}
+
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-item:hover::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu-item:hover::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-submenu:hover::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu-submenu:hover::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-item-active::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu-item-active::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-submenu-active::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu-submenu-active::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-item-open::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu-item-open::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light.ant-menu-horizontal
+  > .ant-menu-submenu-open::after,
+:where(.css-dev-only-do-not-override-1l8tm5b).ant-menu-light
+  > .ant-menu.ant-menu-horizontal
+  > .ant-menu-submenu-open::after {
+  border-bottom-width: 0px;
+  /* border-bottom-color: #658127; */
+}
